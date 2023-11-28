@@ -4,8 +4,22 @@ header {
 	color: white;
 }
 
+body	{
+	background-color:	rgb(160, 160, 160);
 
-  
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black; 
+    border: none; 
+    transition: color 0.3s, border 0.3s; 
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: blue;
+    border-bottom: 2px solid blue; 
+}
+
 
 .color-overlay {
 	background-color: rgba(0, 0, 0, 0.4);
